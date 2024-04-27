@@ -1,0 +1,191 @@
+{"products":[
+  {
+    "price":20,
+    "title":"highlighter",
+    "brand":"ordinary",
+    "src":"https://www.sephora.com/productimages/sku/s1691278-main-zoom.jpg?imwidth=166"
+  },
+  {
+    "price":12,
+    "title":"blush",
+    "brand":"touchland",
+    "src":"https://www.sephora.com/productimages/sku/s2743060-main-zoom.jpg?imwidth=166"
+  },
+   {"brand":"touchland",
+   "title":"foundation",
+   "price":14,
+    "src":"https://www.sephora.com/productimages/sku/s2742567-main-zoom.jpg?imwidth=166"
+  },
+   {"brand":"oriflame",
+   "title":"eyeliner",
+   "price":24,
+    "src":"https://www.sephora.com/productimages/sku/s2742195-main-zoom.jpg?imwidth=166"
+  }, 
+  {"brand":"ordinary",
+  "title":"primer",
+  "price":14,
+    "src":"https://www.sephora.com/contentimages/promo/beautyoffers/2024/April/2024-04-26-NEW2SKIN-slotting-promo-app-beauty-offers-banner-US-handoff.jpg?imwidth=240"
+  },
+   {"brand":"nivea",
+   "title":"mascare",
+   "price":7,
+    "src":"https://www.sephora.com/productimages/sku/s2470904-main-zoom.jpg?imwidth=166"
+  },
+   {"brand":"touchland",
+   "title":"lipstick",
+   "price":20,
+    "src":"https://www.sephora.com/productimages/sku/s2165512-main-zoom.jpg?imwidth=166"
+  },{
+    "brand":"gisou",
+    "title":"mascara",
+    "price":13,
+    "src":"https://www.sephora.com/productimages/sku/s2031391-main-zoom.jpg?imwidth=166"
+  },
+  {
+    "brand":"gisou",   
+    "title":"foundation",
+    "price":16,
+    "src":"https://www.sephora.com/productimages/sku/s2739415-main-zoom.jpg?imwidth=166"
+  },
+   {
+    "brand":"nivea",
+    "title":"primer",
+    "price":9,
+    "src":"https://www.sephora.com/productimages/sku/s2727659-main-zoom.jpg?imwidth=166"
+  },
+   {
+    "brand":"oriflame",
+    "title":"blush",
+    "price":15,
+    "src":"https://www.sephora.com/productimages/sku/s2771236-main-zoom.jpg?imwidth=166"
+  }, 
+  {
+    "brand":"gisou",
+    "title":"primer",
+    "price":6,
+    "src":"https://www.sephora.com/productimages/sku/s2771301-main-zoom.jpg?imwidth=166"
+  },
+   {
+    "brand":"michant",
+    "title":"mascara",
+    "price":17,
+    "src":"https://www.sephora.com/productimages/sku/s2778249-main-zoom.jpg?imwidth=166"
+  },
+   {
+    "brand":"gisou",
+    "title":"highlighter",
+    "price":18,
+    "src":"https://www.sephora.com/productimages/sku/s2761971-main-zoom.jpg?imwidth=166"
+  }
+],
+  "users": [
+    {
+      "username": "mary",
+      "email": "mary@gmail.com",
+      "password": "12542453456",
+      "id": "de0f"
+    },
+    {
+      "username": "ali",
+      "email": "ali@gmail.com",
+      "password": "123454456",
+      "id": "e7cd"
+    },
+    {
+      "username": "josh",
+      "email": "josh@gmail.com",
+      "password": "1234664549756",
+      "id": "826e"
+    },
+    {
+      "username": "munbai",
+      "email": "m154@gmail.com",
+      "password": "544678535",
+      "id": "31f8"
+    },
+    {
+      "id": "fa65",
+      "email": ";sljfvkdjfbn",
+      "password": "jcfbdfjhuvidfv",
+      "username": "lkxnfvojknd"
+    },
+    {
+      "id": "fc59",
+      "email": ";sljfvkdjfbn",
+      "password": "jcfbdfjhuvidfv",
+      "username": "lkxnfvojknd"
+    },
+    {
+      "id": "3106",
+      "email": ";sljfvkdjfbn",
+      "password": "jcfbdfjhuvidfv",
+      "username": "lkxnfvojknd"
+    },
+    {
+      "id": "9556",
+      "email": ";sljfvkdjfbn",
+      "password": "jcfbdfjhuvidfv",
+      "username": "lkxnfvojknd"
+    },
+    {
+      "id": "66e6",
+      "email": ";sljfvkdjfbn",
+      "password": "jcfbdfjhuvidfv",
+      "username": "lkxnfvojknd"
+    },
+    {
+      "id": "ea7c",
+      "email": ";sljfvkdjfbn",
+      "password": "jcfbdfjhuvidfv",
+      "username": "lkxnfvojknd"
+    },
+    {
+      "id": "6b5c",
+      "email": ";sljfvkdjfbn",
+      "password": "jcfbdfjhuvidfv",
+      "username": "lkxnfvojknd"
+    },
+    {
+      "id": "6b63",
+      "email": ";sljfvkdjfbn",
+      "password": "jcfbdfjhuvidfv",
+      "username": "lkxnfvojknd"
+    },
+    {
+      "id": "3b91",
+      "email": ";sljfvkdjfbn",
+      "password": "jcfbdfjhuvidfv",
+      "username": "lkxnfvojknd"
+    },
+    {
+      "id": "17c8",
+      "email": "knln",
+      "password": "jkbdfjnvdkfnbolfndbk",
+      "username": "lknnkbjk"
+    },
+    {
+      "id": "65ca",
+      "email": "knln",
+      "password": "jkbdfjnvdkfnbolfndbk",
+      "username": "lknnkbjk"
+    },
+    {
+      "id": "9637",
+      "email": "knln",
+      "password": "jkbdfjnvdkfnbolfndbk",
+      "username": "lknnkbjk"
+    },
+    {
+      "id": "fe8c",
+      "email": "knln",
+      "password": "jkbdfjnvdkfnbolfndbk",
+      "username": "lknnkbjk"
+    },
+    {
+      "id": "b848",
+      "email": "lksdkndscv",
+      "password": "skjdfbfjkdfv",
+      "username": "jdfvkd fkv"
+    }
+  ]
+}
