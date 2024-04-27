@@ -1,6 +1,6 @@
 <template>
   <div class="parent">
-    <div class="carousel" :style="{userSelect:userSelect, scrollBehavior: scrollBehavior}" @mousedown="down"  @mouseup="up" @mousemove="move" ref="carousel">
+    <div class="carousel" @mouseleave="up" :style="{userSelect:userSelect, scrollBehavior: scrollBehavior}" @mousedown="down"  @mouseup="up" @mousemove="move" ref="carousel">
      <div class="cards" >
       
 <Card class="card" v-for="(card, index) in products" :key="index" :src="card.src" :brand="card.brand" :price="card.price" :title="card.title"></Card>

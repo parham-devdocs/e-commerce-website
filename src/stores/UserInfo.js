@@ -23,8 +23,13 @@ export const basket=defineStore('basket',{
             this.totalCost=0
             this.products.forEach(e=>{
                 this.totalCost+=e.price
-                console.log(this.totalCost);
+                
             })
         }
-    }
+    },
+    getters:{
+        number_of_products:(state)=> {return state.products.length}
+        
+    },
+    
 })

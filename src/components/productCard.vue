@@ -8,7 +8,7 @@
 <h2 class="Brand">{{ props.brand }}</h2>
 <h2 class="Price">{{ props.price }} $</h2>
 </div>
-<button @click="addToBaskek(props)" class="btnAdd">ADD</button>
+<button @click="addToBaskek(props.price,props.title,props.src , props.brand)" class="btnAdd">ADD</button>
 </div>
     </a>
    </div>
@@ -18,9 +18,12 @@
    const props=defineProps(['src','title','brand','price'])
    import { basket } from '../stores/UserInfo';
    const  userBasket=basket()
-   function addToBaskek(productdetail) {
-userBasket.products.push(productdetail)
+   function addToBaskek(price , title , src , brand) {
+    console.log({price , title , src , brand });
+userBasket.products.push({price ,title,src,brand})
 userBasket.aggregate()
+console.log(userBasket.products);
+
    }
 </script>
 

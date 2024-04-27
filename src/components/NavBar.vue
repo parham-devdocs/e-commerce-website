@@ -2,7 +2,7 @@
     <div class="container">
 <div class="Logo_btns">
 <div class="signUp_signIn_btns">
-    <button>mdi-folder-multiple-image</button>
+    <button class="basket_btn"><i class="fa fa-shopping-cart"></i><div class="number_of_products"><span>{{ number_of_products }}</span></div></button>
     <button @click="go_to_signUp">sign up</button>
     <button @click="go_to_signIn">sign in</button>
 </div>
@@ -25,7 +25,20 @@
 
 <script setup>
 import { useRouter, useRoute } from 'vue-router'
+import { basket, user } from '../stores/UserInfo';
+import { ref, watch } from 'vue';
+const  userBasket=basket()
 const router=useRouter()
+const number_of_products=ref(0)
+
+watch
+
+   watch(userBasket.products,()=>{
+console.log('watched');
+console.log(userBasket.number_of_products);
+    number_of_products.value=userBasket.number_of_products
+  
+   })
 const route=useRoute
    function go_to_signIn() {
     router.push('/signin')
@@ -37,6 +50,18 @@ const route=useRoute
 </script>
 
 <style scoped>
+.number_of_products{
+    width: 18px;
+    height: 18px;
+    background-color: rgb(231, 26, 26);
+    border-radius: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 12px;
+    padding-top: 2px;
+}
 .Logo_btns{
     width: 98vw;
     height: 70px;
@@ -51,6 +76,10 @@ const route=useRoute
     padding-right: 10px;
     
 
+}
+.basket_btn{
+    background-color: rgb(37, 224, 37);
+    position: relative;
 }
 button{
     background-color: rgb(237, 209, 209);
@@ -67,9 +96,10 @@ button:hover{
     
 }
 .signUp_signIn_btns{
-    width: 165px;
+    width: 250px;
     display: flex;
     justify-content: space-between;
+
     
 }
 .navIcons a{
@@ -109,9 +139,7 @@ animation-fill-mode: forwards;
     from{background-color: rgb(59, 57, 57);  color: white;}
     to{background-color: white; color: rgb(59, 57, 57);}
 }
-.container{
-    margin-bottom: 100px;
-}
+
 
 
 
